@@ -6,7 +6,7 @@ import Input2 from './Input2'
 import Output from './Output'
 
 
-const hydrate = create()
+// const hydrate = create()
 
 const stores = {
 	Store,
@@ -15,12 +15,12 @@ const stores = {
 	Output
 }
 
-Promise.all([
-	hydrate('Input1', stores.Input1),
-	hydrate('Input2', stores.Input2),
-	hydrate('Output', stores.Output),
-]).then(() => {
-})
+// Promise.all([
+// 	hydrate('Input1', stores.Input1),
+// 	hydrate('Input2', stores.Input2),
+// 	hydrate('Output', stores.Output),
+// ]).then(() => {
+// })
 
 
 

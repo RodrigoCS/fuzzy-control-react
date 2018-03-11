@@ -18,25 +18,25 @@ class Output {
 
     @observable chosen = null
 
-    @persist
+    //@persist
     @observable name = ''
 
-    @persist
+    //@persist
     @observable min = ''
 
-    @persist
+    //@persist
     @observable max = ''
 
-    @persist('list')
+    //@persist('list')
     @observable datasets = []
 
-    @persist('list')
+    //@persist('list')
     @observable added_labels = []
 
-    @persist('list')
+    //@persist('list')
     @observable matrix = init2DArray(20, 20, 0)
 
-    @persist('list')
+    //@persist('list')
     @observable outputStateMachine = {}
 
     @observable resultGeometry = null
